@@ -28,5 +28,17 @@
     <ClInclude Include="Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Bulves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ukininkas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UkininkuVienkryptisSarasas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DuomenuPildytojas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
