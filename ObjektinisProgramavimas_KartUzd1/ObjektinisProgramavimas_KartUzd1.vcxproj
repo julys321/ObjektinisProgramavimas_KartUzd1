@@ -121,6 +121,7 @@
     <Text Include="ObjektinisProgramavimas_KartUzd1_Duom.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bulves.h" />
     <ClInclude Include="DuomenuPildytojas.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="NotMyGod.h" />
