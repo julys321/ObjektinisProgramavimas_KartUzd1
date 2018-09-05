@@ -6,15 +6,15 @@ public:
 	UkininkuDuomenuSkaiciuotuvas();
 	virtual ~UkininkuDuomenuSkaiciuotuvas();
 
-	int getBulviuKilogramaisSuma(UkininkuVienkryptisSarasas ukininkuVienkryptisSarasas) {
-		int bulviuKilogramaisSuma = 0;
+	int getBulviuSumaKilogramais(UkininkuVienkryptisSarasas ukininkuVienkryptisSarasas) {
+		int bulviuSumaKilogramais = 0;
 		Ukininkas *ukininkas = ukininkuVienkryptisSarasas.pirmasukininkas;
 		while (ukininkuVienkryptisSarasas.ukininkasNeraPaskutinis(ukininkas)) {
 			if (ukininkuVienkryptisSarasas.ukininkoParduotosBulvesYraKilogramais(ukininkas))
-				bulviuKilogramaisSuma += ukininkas->parduotosBulves.kiekis;
+				bulviuSumaKilogramais += ukininkas->parduotosBulves.kiekis;
 			ukininkas = ukininkas->sekantisUkininkas;
 		}
-		return bulviuKilogramaisSuma;
+		return bulviuSumaKilogramais;
 	}
 
 	int getUkininkaiPardaveBulviuDaugiau(UkininkuVienkryptisSarasas ukininkuVienkryptisSarasas, int minimumas) {

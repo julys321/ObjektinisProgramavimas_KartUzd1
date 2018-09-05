@@ -15,33 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ObjektinisProgramavimas_KartUzd1_Duom.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ukininkas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UkininkuVienkryptisSarasas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DuomenuPildytojas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UkininkuSkaiciuotuvas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NotMyGod.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

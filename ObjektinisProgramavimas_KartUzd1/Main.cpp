@@ -12,7 +12,7 @@ int main() {
 	duomenuPildytojas.pildykUkininkuVienkryptiSarasa(ukininkai);
 	UkininkuDuomenuSkaiciuotuvas ukininkuDuomenuSkaiciuotuvas;
 
-	cout << "Kiek kilogramų bulviu buvo parduota is viso? - " << ukininkuDuomenuSkaiciuotuvas.getBulviuKilogramaisSuma(ukininkai) << endl;
+	cout << "Kiek kilogramų bulviu buvo parduota is viso? - " << ukininkuDuomenuSkaiciuotuvas.getBulviuSumaKilogramais(ukininkai) << endl;
 	cout << "Kiek uzfiksuota irasu, kai buvo parduota daugiau kaip 50 kg bulviu? - " << ukininkuDuomenuSkaiciuotuvas.getUkininkaiPardaveBulviuDaugiau(ukininkai,50) << endl;
 	cout << "Paskutinio ukinko parduotos bulves kg? - " << ukininkai.getPaskutinisUkininkas()->parduotosBulves.kiekis << " " << ukininkai.getPaskutinisUkininkas()->parduotosBulves.matavimoVienetas << endl;
 
