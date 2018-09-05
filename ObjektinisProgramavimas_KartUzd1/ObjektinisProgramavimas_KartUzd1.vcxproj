@@ -125,6 +125,7 @@
     <ClInclude Include="DuomenuPildytojas.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Ukininkas.h" />
+    <ClInclude Include="UkininkuSkaiciuotuvas.h" />
     <ClInclude Include="UkininkuVienkryptisSarasas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

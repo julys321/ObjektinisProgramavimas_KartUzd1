@@ -31,28 +31,6 @@ public:
 		return paskutinisUkininkas;
 	}
 
-	int getBulviuKilogramaisSuma() {
-		int bulviuKilogramaisSuma = 0;
-		Ukininkas *ukininkas = pirmasukininkas;
-		while (ukininkasNeraPaskutinis(ukininkas)) {
-			if (ukininkoParduotosBulvesYraKilogramais(ukininkas))
-				bulviuKilogramaisSuma += ukininkas->parduotosBulves.kiekis;
-			ukininkas = ukininkas->sekantisUkininkas;
-		}
-		return bulviuKilogramaisSuma;
-	}
-
-	int getUkininkaiPardaveBulviuDaugiau(int minimumas) {
-		int ukininkaiPardaveBulviuDaugiau = 0;
-		Ukininkas *ukininkas = pirmasukininkas;
-		while (ukininkasNeraPaskutinis(ukininkas)) {
-			if (ukininkas->parduotosBulves.kiekis > minimumas)
-				ukininkaiPardaveBulviuDaugiau++;
-			ukininkas = ukininkas->sekantisUkininkas;
-		}
-		return ukininkaiPardaveBulviuDaugiau;
-	}
-
 	bool sekantisUkininkasNeraPaskutinis(Ukininkas *ukininkas) {
 		if (ukininkas->sekantisUkininkas != NULL)
 			return true;

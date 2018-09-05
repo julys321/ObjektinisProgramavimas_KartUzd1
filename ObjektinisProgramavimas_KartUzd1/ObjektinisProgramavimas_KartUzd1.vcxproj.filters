@@ -40,5 +40,8 @@
     <ClInclude Include="DuomenuPildytojas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UkininkuSkaiciuotuvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
